@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
 
 <head>
+
+<meta charset="utf-8">
 
 <style>
 
@@ -103,7 +105,7 @@ h3 { font-size: 1.4em;}
 
 body {background-color: rgb(209, 242, 235);}
 
-#body {width: 80%;
+.body {width: 80%;
              
       margin-left: 110px;
       
@@ -129,19 +131,17 @@ a:hover, a:active, a:focus {background-color: rgb(243, 255, 54);}
 
 </style>
 
-<meta charset="utf-8">
-
 <title>Mi Página Web</title>
 
 </head>
 
 <body>
 
-<div id="body">
+<div class="body">
 
 <h1 class="titulo"><strong>Frutas</strong></h1>
 
-<img class="borde" src="https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-3foodgroups_fruits_detailfeature.jpg?sfvrsn=64942d53_4" width="500">
+<img class="borde" src="https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-3foodgroups_fruits_detailfeature.jpg?sfvrsn=64942d53_4" width="500" alt="varias frutas">
 
 <h2 class="titulo">Contenidos</h2>
 
@@ -149,7 +149,7 @@ a:hover, a:active, a:focus {background-color: rgb(243, 255, 54);}
             
             <li><a href="#tiposdefrutas"> Tipos de Frutas</a></li>
             
-            <li><a href="#ejemplodefruta"> Ejemplo de Fruta</a></<li>
+            <li><a href="#ejemplodefruta"> Ejemplo de Fruta</a></li>
             
             <li><a href="#ejemplodevariacionenfrutas"> Ejemplo de Variación en Frutas</a></li>
             
@@ -192,15 +192,19 @@ a:hover, a:active, a:focus {background-color: rgb(243, 255, 54);}
 									<li class="banana">Bananas<br></li>
 </ul>
 
+</div>
+
+<div class="body">
+
 <h2 id="ejemplodefruta" class="titulo"><strong><em>Así</em></strong> se ve una manzana:</h2>
 
-<img class="borde" src="https://purepng.com/public/uploads/large/purepng.com-fresh-applefoodsweettastyhealthyfruitappleleaf-981524677946vfurf.png" width="400">
+<img class="borde" src="https://purepng.com/public/uploads/large/purepng.com-fresh-applefoodsweettastyhealthyfruitappleleaf-981524677946vfurf.png" width="400" alt="manzana roja">
 
 <p class="parrafo">También es importante mencionar que existen diferentes variaciones y clases de las mismas frutas, <strong>por ejemplo,</strong>
 
 	<h2 id="ejemplodevariacionenfrutas" class="titulo"><strong>Esta</strong> es una manzana <em>verde:</em></h2>
 
-	<img class="borde" src="https://i.pinimg.com/originals/17/3b/ad/173badf89e723ded42cde4a18cce0232.png" width="400">
+	<img class="borde" src="https://i.pinimg.com/originals/17/3b/ad/173badf89e723ded42cde4a18cce0232.png" width="400" alt="manzana verde">
 
 <p class="parrafo">Aunque todas las frutas son beneficiosas en algún sentido, muchas personas prefieren <em>algunas</em> sobre <em>otras</em>. Ya sea por, su aspecto, sabor, propiedades u otros.</p>
 
@@ -223,11 +227,13 @@ a:hover, a:active, a:focus {background-color: rgb(243, 255, 54);}
 
 	<li id="aguacate">Aguacates</li>
 
+</ol>
+
 <div id="o">
 
 <h2 id="tablanutricionaldefrutas" class="titulo">Tabla Nutricional de Frutas</h2>
 
-	<h3 class="subtitulo">He aquí una tabla, con <em>importantes</em> datos nutricionales sobre varias frutas:<h3> 
+	<h3 class="subtitulo">He aquí una tabla, con <em>importantes</em> datos nutricionales sobre varias frutas:</h3> 
 
 		<table id="tabla">
             
@@ -349,7 +355,7 @@ a:hover, a:active, a:focus {background-color: rgb(243, 255, 54);}
 
             	</table>
 
- <h2 class="titulo" id="beneficios">Beneficios de consumir frutas</h2> 
+ <h2 id="beneficios" class="titulo">Beneficios de consumir frutas</h2> 
 
 <h3 class="subtitulo">Aquí pueden ver declaraciones de expertos, basadas en evidencia científica, sobre el consumo de frutas:</h3>     
 
@@ -373,14 +379,15 @@ a:hover, a:active, a:focus {background-color: rgb(243, 255, 54);}
 
 <p class="evidencia">"consumir 800 gramos de frutas y verduras al día, puede reducir las posibilidades de ataque cardíaco, accidente cerebrovascular, cáncer y muerte temprana."</p>
 
-<h2 class="titulo" id="cancion">Canción: Familia de las frutas</span></h2> 
+<h2 class="titulo" id="cancion">Canción: Familia de las frutas</h2> 
 
-<h3 class="subtitulo"> Para poder recordar mejor la cantidad de frutas que existen y cuales son, he aquí una canción infantil:<h3>
+<h3 class="subtitulo"> Para poder recordar mejor la cantidad de frutas que existen y cuales son, he aquí una canción infantil:</h3>
+
+<span id="lol">
 
 <p id="cancion1">
 
-<span id="lol">La familia de las frutas<br>
-
+La familia de las frutas<br>
 <br>
 es por todos conocida.<br>
 <br>
@@ -450,22 +457,26 @@ la fresita es sobrina del fresón.<br>
 <br>
 Y la piña (¡Y la piña!) es madrina (¡es madrina!),<br>
 <br>
-la piña es madrina del piñón.</p>
+la piña es madrina del piñón.
+
+</p>
 
 </span>
 
-<img class="borde" src="https://image.sciencenorway.no/1438480.jpg?imageId=1438480&panow=0&panoh=0&panox=0&panoy=0&heightw=0&heighth=0&heightx=0&heighty=0&width=1200&height=630" width="500">
+<img class="borde" src="https://image.sciencenorway.no/1438480.jpg?imageId=1438480&panow=0&panoh=0&panox=0&panoy=0&heightw=0&heighth=0&heightx=0&heighty=0&width=1200&height=630" width="500" alt="varias frutas">
 
 <h2 class="titulo">Clases de frutas</h2>
 
-<h3 class="subtitulo">Dentro del mundo nutricional, los alimentos se dividen en categorías, ya sea por sus características físicas o demás valores. Esto es igual en las frutas, que se dividen así:<h3>
+<h3 class="subtitulo">Dentro del mundo nutricional, los alimentos se dividen en categorías, ya sea por sus características físicas o demás valores. Esto es igual en las frutas, que se dividen así:</h3>
 
       <ol>
-            <li> <a href="http://juadvis14.blogspot.com/2015/06/fruta-de-grano-son-aquellas-frutas-que.html#:~:text=Aguacate%2C%20banano%20o%20pl%C3%A1tano%2C%20boroj%C3%B3,de%20%C3%A1rbol%2C%20uchuva%2C%20uva%20y">Frutas de grano</li></a>
+            <li><a href="http://juadvis14.blogspot.com/2015/06/fruta-de-grano-son-aquellas-frutas-que.html#:~:text=Aguacate%2C%20banano%20o%20pl%C3%A1tano%2C%20boroj%C3%B3,de%20%C3%A1rbol%2C%20uchuva%2C%20uva%20y">Frutas de grano</a></li>
 <br>
             <li><a href="https://es.wikipedia.org/wiki/Citrus">Cítricos</a></li>
             <br>
             <li><a href="https://es.wikipedia.org/wiki/Fruta_tropical#:~:text=Las%20frutas%20tropicales%20son%20a,de%20un%20h%C3%A1bitat%20en%20particular.">Exóticas</a></li>
+
+</ol>
 
 <h2 class="titulo">Bibliografía</h2>
 
@@ -476,8 +487,6 @@ la piña es madrina del piñón.</p>
 <p class="vietnam"><em><a target="_blank" href="https://www.guiainfantil.com/articulos/ocio/canciones-infantiles/la-familia-de-las-frutas-cancion-de-los-payasos-para-ninos/"> Letra de la canción, familia de las frutas</a></em></p>  
 
 Esta página fue hecha por Martín Pinzón
-
-</div>
 
 </div>
 
